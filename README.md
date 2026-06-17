@@ -1,4 +1,8 @@
-[index.html](https://github.com/user-attachments/files/29060492/index.html)
+echo "# dis0599.github.io" >> README.md
+git remote add origin [index.html](https://github.com/user-attachments/files/29060492/index.html)
+git branch -M main
+git push -u origin main
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
