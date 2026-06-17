@@ -1,279 +1,195 @@
-git remote add origin [index.html](https://github.com/user-attachments/files/29060492/index.html)
-git branch -M main
-git push -u origin main
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Divina Santos | Logistics VA Portfolio</title>
-  <meta name="description" content="Portfolio of Divina Santos, Logistics Virtual Assistant, Online Seller, Customer Support & Operations Coordinator." />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header class="topbar">
-    <div class="brand">
-      <div class="brand-mark">DS</div>
-      <div>
-        <strong>Divina Santos</strong>
-        <span>Logistics VA Portfolio</span>
-      </div>
-    </div>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact" class="btn btn-small">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Online Seller • Customer Support • Operations Coordinator</p>
-        <h1>Helping businesses streamline customer communication and delivery operations.</h1>
-        <p class="lead">
-          Detail-oriented professional with nearly 4 years of Software QA experience and hands-on
-          online selling and logistics coordination experience through Facebook Marketplace.
-        </p>
-        <div class="hero-actions">
-          <a class="btn" href="#contact">Hire Me</a>
-          <a class="btn btn-outline" href="Divina_Santos_CV.pdf" target="_blank" rel="noopener">Download CV</a>
-        </div>
-        <div class="metrics" aria-label="Highlights">
-          <div class="metric">
-            <strong>4 yrs</strong>
-            <span>QA background</span>
-          </div>
-          <div class="metric">
-            <strong>FB Marketplace</strong>
-            <span>Seller experience</span>
-          </div>
-          <div class="metric">
-            <strong>5-star</strong>
-            <span>customer feedback</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-card">
-        <div class="profile-card">
-          <div class="avatar">DS</div>
-          <h2>Logistics Virtual Assistant</h2>
-          <p>Online Seller | Customer Support & Operations Coordinator</p>
-          <ul class="quick-facts">
-            <li>Customer inquiry handling</li>
-            <li>Shipment tracking & ETA updates</li>
-            <li>Delivery rider coordination</li>
-            <li>Order management & reporting</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="section">
-      <div class="section-heading">
-        <p>About Me</p>
-        <h2>Built on process, communication, and customer care.</h2>
-      </div>
-      <div class="card two-col">
-        <div>
-          <p>
-            I am a detail-oriented professional with nearly four years of Software QA experience
-            and practical logistics coordination experience from running an online business on Facebook Marketplace.
-            I handled buyer inquiries, confirmed orders, coordinated deliveries, communicated with riders,
-            tracked shipments, and kept customers updated until their orders were delivered successfully.
-          </p>
-        </div>
-        <div>
-          <p>
-            My QA background strengthened my documentation, process management, problem-solving, and
-            communication skills. I am now focused on a Logistics VA path where I can help businesses
-            manage customer support, order flow, shipping updates, and daily operations efficiently.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="section-heading">
-        <p>Professional Story</p>
-        <h2>A transition from QA to logistics coordination.</h2>
-      </div>
-
-      <div class="timeline">
-        <article class="card timeline-item">
-          <span class="timeline-label">2018–2022</span>
-          <h3>BS in Information Technology</h3>
-          <p>Built a foundation in technical work, problem-solving, and structured workflows.</p>
-        </article>
-
-        <article class="card timeline-item">
-          <span class="timeline-label">2022–Present</span>
-          <h3>Software QA Engineer</h3>
-          <p>Developed strong attention to detail, documentation, reporting, test execution, and collaboration across teams.</p>
-        </article>
-
-        <article class="card timeline-item">
-          <span class="timeline-label">Online Business</span>
-          <h3>Online Seller & Logistics Coordinator</h3>
-          <p>Managed customer inquiries, scheduled deliveries, tracked shipments, and communicated with delivery riders until successful completion.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="services" class="section">
-      <div class="section-heading">
-        <p>Services</p>
-        <h2>Support areas I can help with.</h2>
-      </div>
-
-      <div class="grid cards-3">
-        <article class="card service-card">
-          <div class="icon">✉</div>
-          <h3>Customer Support</h3>
-          <p>Email and chat support, inquiries, order updates, and complaint resolution.</p>
-        </article>
-        <article class="card service-card">
-          <div class="icon">🚚</div>
-          <h3>Logistics Coordination</h3>
-          <p>Shipment tracking, delivery scheduling, rider communication, and ETA follow-ups.</p>
-        </article>
-        <article class="card service-card">
-          <div class="icon">🗂</div>
-          <h3>Operations Support</h3>
-          <p>Data entry, reporting, documentation, spreadsheets, and order management.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p>Workflow</p>
-        <h2>How I manage an order from inquiry to delivery.</h2>
-      </div>
-
-      <div class="workflow card">
-        <div>Inquiry</div><span>→</span>
-        <div>Order Confirmation</div><span>→</span>
-        <div>Delivery Scheduling</div><span>→</span>
-        <div>Rider Coordination</div><span>→</span>
-        <div>Shipment Tracking</div><span>→</span>
-        <div>Customer Update</div><span>→</span>
-        <div>Successful Delivery</div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p>Case Study</p>
-        <h2>Facebook Marketplace selling experience.</h2>
-      </div>
-
-      <div class="card two-col">
-        <div>
-          <h3>Situation</h3>
-          <p>Selling handcrafted products through Facebook Marketplace while handling daily buyer inquiries and delivery coordination.</p>
-          <h3>Responsibilities</h3>
-          <ul class="checklist">
-            <li>Answered inquiries and provided product details</li>
-            <li>Confirmed orders and buyer requirements</li>
-            <li>Scheduled shipment and delivery</li>
-            <li>Tracked deliveries and communicated with riders</li>
-            <li>Updated customers until completion</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Results</h3>
-          <ul class="checklist">
-            <li>Maintained responsive and professional communication</li>
-            <li>Built trust through reliable follow-up</li>
-            <li>Earned positive customer feedback, including 5-star reviews</li>
-          </ul>
-          <p class="note">
-            This experience demonstrates real-world customer service, order handling, and logistics coordination.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p>Skills</p>
-        <h2>Core strengths I bring to a Logistics VA role.</h2>
-      </div>
-
-      <div class="skill-cloud card">
-        <span>Shipment Tracking</span>
-        <span>Customer Support</span>
-        <span>Delivery Coordination</span>
-        <span>Order Management</span>
-        <span>Documentation</span>
-        <span>Google Sheets</span>
-        <span>MS Excel</span>
-        <span>Problem Solving</span>
-        <span>Attention to Detail</span>
-        <span>Process Management</span>
-        <span>Fast Learner</span>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p>Customer Feedback</p>
-        <h2>Social proof that supports the portfolio.</h2>
-      </div>
-
-      <div class="grid cards-2">
-        <article class="card quote">
-          <p>“Responsive, organized, and easy to communicate with.”</p>
-          <span>— Customer feedback highlight</span>
-        </article>
-        <article class="card quote">
-          <p>“Reliable follow-up and smooth delivery coordination.”</p>
-          <span>— Customer feedback highlight</span>
-        </article>
-      </div>
-      <p class="footnote">Replace these with the exact wording from your real reviews when available.</p>
-    </section>
-
-    <section class="section">
-      <div class="section-heading">
-        <p>Why Hire Me</p>
-        <h2>A practical mix of accuracy, communication, and operations support.</h2>
-      </div>
-      <div class="card">
-        <p>
-          I combine the discipline of a QA professional with direct experience handling customer inquiries,
-          delivery scheduling, shipment tracking, and operational follow-through. I am organized, reliable,
-          and ready to support logistics teams with day-to-day coordination and customer communication.
-        </p>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="section-heading">
-        <p>Contact</p>
-        <h2>Let's work together.</h2>
-      </div>
-      <div class="card contact-card">
-        <div>
-          <h3>Divina Santos</h3>
-          <p>Logistics Virtual Assistant | Online Seller | Customer Support & Operations Coordinator</p>
-          <p>Email: divinainfantesantos24@gmail.com</p>
-          <p>Location: Bulacan, Philippines</p>
-        </div>
-        <div class="contact-actions">
-          <a class="btn" href="mailto:divinainfantesantos24@gmail.com">Email Me</a>
-          <a class="btn btn-outline" href="Divina_Santos_CV.pdf" target="_blank" rel="noopener">Open CV</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>Divina Santos • Logistics VA Portfolio</p>
-  </footer>
-</body>
-</html>
+[index.html](https://github.com/user-attachments/files/29060858/index.html)
+[style.css](https://github.com/user-attachments/files/29060875/style.css)
+:root{
+  --bg:#f4f7fb;
+  --card:#ffffff;
+  --text:#16202c;
+  --muted:#5e6b7a;
+  --primary:#1E3A5F;
+  --accent:#2A9D8F;
+  --line:rgba(30,58,95,.12);
+  --shadow:0 20px 50px rgba(16,24,40,.08);
+  --radius:24px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(42,157,143,.08), transparent 28%),
+    radial-gradient(circle at top right, rgba(30,58,95,.09), transparent 24%),
+    var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
+a{color:inherit;text-decoration:none}
+.topbar{
+  position:sticky; top:0; z-index:10;
+  backdrop-filter: blur(12px);
+  background:rgba(244,247,251,.85);
+  border-bottom:1px solid rgba(30,58,95,.08);
+  display:flex; align-items:center; justify-content:space-between;
+  padding:16px 6vw;
+}
+.brand{display:flex; align-items:center; gap:14px}
+.brand-mark{
+  width:44px; height:44px; border-radius:14px;
+  display:grid; place-items:center;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  color:#fff; font-weight:800;
+  box-shadow: var(--shadow);
+}
+.brand strong{display:block}
+.brand span{display:block; font-size:.88rem; color:var(--muted)}
+.nav{display:flex; gap:18px; align-items:center; flex-wrap:wrap}
+.nav a{font-weight:600; color:var(--primary)}
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  gap:8px;
+  padding:14px 22px;
+  border-radius:999px;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+  color:#fff; font-weight:700;
+  box-shadow:0 12px 26px rgba(42,157,143,.24);
+  border:0;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn-small{padding:10px 16px}
+.btn-outline{
+  background:transparent; color:var(--primary);
+  border:1.5px solid rgba(30,58,95,.18);
+  box-shadow:none;
+}
+main{max-width:1180px; margin:0 auto}
+.hero{
+  display:grid; grid-template-columns:1.4fr .9fr; gap:28px;
+  padding:72px 6vw 22px;
+  align-items:center;
+}
+.hero-copy h1{
+  font-size:clamp(2.5rem, 5vw, 4.7rem);
+  line-height:1.05;
+  margin:.3em 0 .25em;
+  letter-spacing:-.04em;
+  color:var(--primary);
+}
+.eyebrow{
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  color:var(--accent);
+  font-weight:800;
+  font-size:.82rem;
+}
+.lead{font-size:1.08rem; color:var(--muted); max-width:62ch}
+.hero-actions{display:flex; gap:14px; flex-wrap:wrap; margin:28px 0}
+.metrics{
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:26px;
+}
+.metric,.card,.profile-card{
+  background:rgba(255,255,255,.88);
+  border:1px solid rgba(30,58,95,.08);
+  box-shadow:var(--shadow);
+}
+.metric{
+  border-radius:18px; padding:16px 18px;
+}
+.metric strong{display:block; font-size:1.35rem; color:var(--primary)}
+.metric span{color:var(--muted); font-size:.95rem}
+.hero-card{display:flex; justify-content:center}
+.profile-card{
+  width:min(100%, 420px);
+  border-radius:32px;
+  padding:26px;
+  text-align:center;
+}
+.avatar{
+  width:90px; height:90px; border-radius:26px; margin:0 auto 16px;
+  display:grid; place-items:center;
+  color:#fff; font-weight:900; font-size:1.6rem;
+  background:linear-gradient(135deg,var(--primary),var(--accent));
+}
+.quick-facts{
+  text-align:left;
+  padding-left:18px;
+  color:var(--muted);
+}
+.section{padding:52px 6vw}
+.section-heading{text-align:center; margin-bottom:22px}
+.section-heading p{
+  color:var(--accent); font-weight:800; text-transform:uppercase;
+  letter-spacing:.12em; font-size:.82rem; margin:0 0 8px;
+}
+.section-heading h2{
+  margin:0; color:var(--primary);
+  font-size:clamp(1.6rem, 3vw, 2.4rem);
+}
+.card{
+  border-radius:var(--radius);
+  padding:28px;
+}
+.two-col{
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:26px;
+}
+.grid{display:grid; gap:20px}
+.cards-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cards-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.timeline{
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px;
+}
+.timeline-label{
+  display:inline-block; margin-bottom:10px;
+  color:var(--accent); font-weight:800; font-size:.82rem; text-transform:uppercase;
+}
+.service-card .icon{
+  width:52px; height:52px; display:grid; place-items:center;
+  border-radius:16px; margin-bottom:16px;
+  background:rgba(42,157,143,.12);
+  font-size:1.3rem;
+}
+.workflow{
+  display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:center;
+  text-align:center;
+}
+.workflow div{
+  padding:14px 16px; border-radius:16px;
+  background:rgba(42,157,143,.08);
+  border:1px solid rgba(42,157,143,.15);
+  font-weight:700; color:var(--primary);
+}
+.workflow span{color:var(--accent); font-size:1.3rem; font-weight:900}
+.checklist{padding-left:18px}
+.checklist li{margin:10px 0}
+.note,.footnote{color:var(--muted); font-size:.96rem}
+.skill-cloud{
+  display:flex; flex-wrap:wrap; gap:12px; justify-content:center
+}
+.skill-cloud span{
+  padding:12px 16px;
+  background:linear-gradient(135deg, rgba(30,58,95,.08), rgba(42,157,143,.12));
+  border:1px solid rgba(30,58,95,.08);
+  border-radius:999px;
+  font-weight:700;
+}
+.quote p{font-size:1.08rem; font-style:italic; margin-bottom:10px}
+.quote span{color:var(--muted)}
+.contact-card{
+  display:flex; justify-content:space-between; gap:24px; align-items:flex-end;
+}
+.contact-actions{display:flex; gap:12px; flex-wrap:wrap}
+footer{
+  padding:28px 6vw 40px; text-align:center; color:var(--muted)
+}
+@media (max-width: 980px){
+  .hero,.two-col,.timeline,.cards-3,.cards-2,.contact-card{grid-template-columns:1fr}
+  .contact-card{display:grid}
+  .metrics{grid-template-columns:1fr}
+}
+@media (max-width: 720px){
+  .topbar{gap:12px; flex-direction:column; align-items:flex-start}
+  .nav{gap:12px}
+  .hero{padding-top:40px}
+  .section{padding:38px 6vw}
+  .hero-actions{flex-direction:column; align-items:stretch}
+  .btn,.btn-outline{width:100%}
+}
