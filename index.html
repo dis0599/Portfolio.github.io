@@ -4,205 +4,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divina Santos | Logistics VA Portfolio</title>
+    <title>Divina Santos | Software QA & Logistics VA Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --primary: #2563eb;
-            --dark: #0f172a;
-            --light: #f8fafc;
-            --text: #334155;
-            --gray-bg: #f1f5f9;
+            --dark: #000000;
+            --text-main: #111827;
+            --text-muted: #4b5563;
+            --bg-light: #f8fafc;
+            --border: #e5e7eb;
         }
 
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
+            font-family: 'Inter', -apple-system, sans-serif;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            line-height: 1.6;
-            color: var(--text);
             background-color: #ffffff;
-            padding-bottom: 60px;
+            color: var(--text-main);
+            line-height: 1.5;
+            padding-bottom: 80px;
         }
 
-        /* Navigation Bar */
+        /* Top Navigation Bar */
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 10%;
+            padding: 24px 8%;
             background: #ffffff;
-            border-bottom: 1px solid #e2e8f0;
+            border-bottom: 1px solid var(--border);
         }
 
         .logo {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             font-weight: 700;
-            font-size: 1.2rem;
+            font-size: 1.15rem;
             color: var(--dark);
+            letter-spacing: -0.3px;
         }
 
         .logo-box {
             background: var(--dark);
             color: #ffffff;
-            padding: 5px 10px;
+            padding: 4px 8px;
             border-radius: 4px;
             font-size: 1.1rem;
+            font-weight: 900;
+            letter-spacing: -1px;
         }
 
         nav ul {
             display: flex;
             list-style: none;
-            gap: 30px;
+            gap: 32px;
         }
 
         nav ul li a {
             text-decoration: none;
-            color: var(--text);
+            color: var(--text-main);
             font-weight: 500;
-            transition: color 0.2s;
+            font-size: 0.95rem;
+            transition: color 0.15s ease;
         }
 
         nav ul li a:hover {
-            color: var(--primary);
+            color: var(--text-muted);
         }
 
-        /* Hero Banner Section */
+        /* Large Bold Header Text */
         .hero {
             text-align: center;
-            padding: 40px 20px 20px 20px;
+            padding: 40px 20px 10px 20px;
         }
 
         .hero h1 {
-            font-size: 2.2rem;
-            font-weight: 800;
+            font-size: 2.3rem;
+            font-weight: 900;
             letter-spacing: -0.5px;
             color: var(--dark);
-            margin-bottom: 25px;
+            margin-bottom: 30px;
             text-transform: uppercase;
+            word-spacing: 2px;
         }
 
-        /* Mockup Graphic Banner */
-        .banner-container {
-            max-width: 1100px;
+        /* Exact Mockup Visual Banner Container */
+        .banner-wrapper {
+            max-width: 1200px;
             margin: 0 auto;
+            padding: 0 4%;
+        }
+
+        .banner-container {
             position: relative;
-            background: linear-gradient(135deg, #cbd5e1 0%, #94a3b8 100%);
-            height: 250px;
-            border-radius: 16px;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            box-shadow: inset 0 0 100px rgba(0,0,0,0.1);
+            background: #b4bfc7 linear-gradient(145deg, #cbd5e1, #94a3b8);
+            background-image: url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1200&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center 30%;
+            height: 240px;
+            border-radius: 14px;
+            box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.15);
         }
 
-        /* Clean CSS illustrations representing the mockup image elements */
-        .banner-bg-elements {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-        }
-
-        .laptop-silhouette {
-            width: 280px;
-            height: 160px;
-            background: #e2e8f0;
-            border-radius: 8px 8px 0 0;
-            border: 4px solid #64748b;
-            border-bottom: none;
-            position: relative;
-        }
-
-        .laptop-silhouette::after {
-            content: '';
-            position: absolute;
-            bottom: -8px;
-            left: -30px;
-            width: 340px;
-            height: 8px;
-            background: #475569;
-            border-radius: 0 0 4px 4px;
-        }
-
-        /* Floating Info Bubbles matching mockup */
+        /* Floating Info Bubbles */
         .bubble {
             position: absolute;
-            background: #ffffff;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(4px);
+            padding: 6px 16px;
+            border-radius: 30px;
+            font-size: 0.8rem;
             font-weight: 600;
             color: var(--dark);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: 1px solid rgba(255,255,255,0.6);
+            white-space: nowrap;
         }
 
-        .bubble-1 { top: 35px; left: 12%; }
-        .bubble-2 { top: 90px; left: 18%; }
-        .bubble-3 { top: 40px; right: 28%; }
-        .bubble-4 { top: 45px; right: 8%; }
-        .bubble-5 { bottom: 35px; right: 18%; }
+        .bubble-1 { top: 35px; left: 16%; }
+        .bubble-2 { bottom: 45px; left: 22%; }
+        .bubble-3 { top: 40px; right: 35%; }
+        .bubble-4 { bottom: 35px; right: 25%; }
+        .bubble-5 { top: 45px; right: 10%; }
 
-        /* Main Content Grid Area */
+        /* Content Layout Sections */
         .main-layout {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 40px auto;
-            padding: 0 20px;
-        }
-
-        .intro-title {
-            margin-bottom: 30px;
+            padding: 0 4%;
         }
 
         .intro-title h2 {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
+            font-weight: 800;
             color: var(--dark);
+            margin-bottom: 25px;
         }
 
+        /* Columns Grid Layout */
         .grid-container {
             display: grid;
             grid-template-columns: 1.2fr 1fr 1fr 1fr;
-            gap: 40px;
-            margin-bottom: 50px;
-        }
-
-        @media (max-width: 900px) {
-            .grid-container {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        @media (max-width: 600px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
-            nav {
-                flex-direction: column;
-                gap: 15px;
-            }
+            gap: 48px;
+            margin-bottom: 60px;
         }
 
         .column h3 {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: var(--dark);
-            margin-bottom: 15px;
+            margin-bottom: 16px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.8px;
+            font-weight: 800;
             border-bottom: 2px solid var(--dark);
-            padding-bottom: 5px;
+            padding-bottom: 6px;
+        }
+
+        .column h4 {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+            letter-spacing: 0.3px;
         }
 
         .column p {
-            font-size: 0.95rem;
-            margin-bottom: 15px;
+            font-size: 0.9rem;
+            color: var(--text-main);
+            margin-bottom: 14px;
+            line-height: 1.6;
         }
 
         .column ul {
@@ -211,55 +190,69 @@
 
         .column ul li {
             position: relative;
-            padding-left: 15px;
-            margin-bottom: 8px;
-            font-size: 0.95rem;
+            padding-left: 14px;
+            margin-bottom: 10px;
+            font-size: 0.9rem;
+            color: var(--text-main);
         }
 
         .column ul li::before {
             content: "•";
             position: absolute;
             left: 0;
-            color: var(--text);
+            color: var(--text-main);
+            font-weight: bold;
         }
 
-        /* Footer Call to Action Area */
+        .workflow-subhead {
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        /* Footer Row Style Block */
         .footer-actions {
-            border-top: 1px solid #e2e8f0;
-            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            padding-top: 30px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px;
+            align-items: flex-start;
         }
 
         .contact-info h4, .hire-info h4 {
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: var(--dark);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 0.5px;
         }
 
         .contact-info p {
             font-size: 0.95rem;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            gap: 6px;
         }
 
         .button-group {
             display: flex;
-            gap: 15px;
-            margin-top: 10px;
+            gap: 12px;
         }
 
         .btn {
-            display: inline-block;
-            padding: 10px 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 36px;
             border-radius: 6px;
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             font-weight: 600;
             text-decoration: none;
-            cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.15s ease;
+            height: 42px;
+            min-width: 130px;
         }
 
         .btn-dark {
@@ -269,17 +262,53 @@
         }
 
         .btn-dark:hover {
-            background: #1e293b;
+            background: #222222;
         }
 
         .btn-outline {
-            background: transparent;
+            background: #ffffff;
             color: var(--dark);
             border: 1px solid #cbd5e1;
         }
 
         .btn-outline:hover {
-            background: var(--gray-bg);
+            background: #f1f5f9;
+            border-color: #94a3b8;
+        }
+
+        /* Responsive Breakpoints */
+        @media (max-width: 960px) {
+            .grid-container {
+                grid-template-columns: 1fr 1fr;
+                gap: 32px;
+            }
+            .bubble-1 { left: 5%; }
+            .bubble-5 { right: 5%; }
+        }
+
+        @media (max-width: 640px) {
+            nav {
+                flex-direction: column;
+                gap: 16px;
+                padding: 16px;
+            }
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+            .footer-actions {
+                flex-direction: column;
+                gap: 30px;
+            }
+            .banner-container {
+                height: 180px;
+            }
+            .bubble {
+                font-size: 0.7rem;
+                padding: 4px 10px;
+            }
         }
     </style>
 </head>
@@ -287,7 +316,7 @@
 
     <nav>
         <div class="logo">
-            <span class="logo-box">DS</span> Divina Santos | Logistics VA Portfolio
+            <span class="logo-box">DS</span> Divina Santos | QA & Logistics Portfolio
         </div>
         <ul>
             <li><a href="#about">About</a></li>
@@ -298,60 +327,64 @@
     </nav>
 
     <section class="hero">
-        <h1>Online Seller • Customer Support • Operations Coordinator</h1>
+        <h1>Software QA Tester • Operations Coordinator • Logistics VA</h1>
         
-        <div class="banner-container">
-            <div class="banner-bg-elements">
-                <div class="laptop-silhouette"></div>
-                <div class="bubble bubble-1">4 yrs QA background</div>
-                <div class="bubble bubble-2">FB Marketplace Seller experience</div>
-                <div class="bubble bubble-3">FB Marketplace Seller experience</div>
-                <div class="bubble bubble-4">QA+ tasks review tracking</div>
-                <div class="bubble bubble-5">Customer as support</div>
+        <div class="banner-wrapper">
+            <div class="banner-container">
+                <div class="bubble bubble-1">4 Yrs QA Experience</div>
+                <div class="bubble bubble-2">Manual & API Testing</div>
+                <div class="bubble bubble-3">Agile & Sprint Coordination</div>
+                <div class="bubble bubble-4">Project & Team Leadership</div>
+                <div class="bubble bubble-5">Postman, Jira & Azure DevOps</div>
             </div>
         </div>
     </section>
 
     <main class="main-layout" id="about">
         <div class="intro-title">
-            <h2>Logistics Virtual Assistant</h2>
+            <h2>Logistics & Operations Virtual Assistant</h2>
         </div>
 
         <div class="grid-container">
             <div class="column">
                 <h3>About Me</h3>
-                <p><strong>PROFESSIONAL STORY</strong></p>
-                <p>Divina Santos | I am commonly called FB Marketplace and a warehouse assistant for logistics virtual assistant.</p>
-                <p>My professional seller experience, blend the virtual and customer complement meeting up at market and customer demand dynamic virtual Assistant.</p>
+                <h4>PROFESSIONAL STORY</h4>
+                <p>I am a dedicated QA Engineer with nearly 4 years of experience specializing in web/mobile test design, API testing, and defect lifecycle management.</p>
+                <p>My tech background makes me an exceptionally detail-oriented Logistics VA, combining precise process tracking with top-tier project coordination skills.</p>
             </div>
 
             <div class="column" id="services">
                 <h3>Services</h3>
                 <ul>
-                    <li>Logistics and transfer</li>
-                    <li>Customer support support</li>
-                    <li>Customer support service</li>
-                    <li>Online seller</li>
-                    <li>FB Market familiar</li>
-                    <li>Operations coordinator</li>
+                    <li>Logistics & Tracking</li>
+                    <li>API & Integration Verification</li>
+                    <li>Process Coordination</li>
+                    <li>Data Analysis</li>
+                    <li>Technical Documentation</li>
+                    <li>Operations Management</li>
                 </ul>
             </div>
 
             <div class="column">
                 <h3>Workflow</h3>
-                <p>• Workflow<br>• Case flow</p>
+                <p class="workflow-subhead">• Requirement Review</p>
+                <p class="workflow-subhead">• Process Mapping</p>
+                <p class="workflow-subhead">• Defect Lifecycle Tracking</p>
+                <p class="workflow-subhead">• Release Coordination</p>
                 
-                <h3 style="margin-top: 25px;">Case Study</h3>
-                <p>CUSTOMER FEEDBACK</p>
+                <h3 style="margin-top: 32px;">Leadership</h3>
+                <p>Led QA Support teams & community youth initiatives as SK Chairwoman.</p>
             </div>
 
             <div class="column" id="experience">
                 <h3>Skills</h3>
                 <ul>
-                    <li>Character skills</li>
-                    <li>GitHub</li>
-                    <li>Analytical skills</li>
-                    <li>Follower skills</li>
+                    <li>Manual & API Testing</li>
+                    <li>Postman & BrowserStack</li>
+                    <li>Jira, Qase & Azure DevOps</li>
+                    <li>Data Analysis & Spreadsheets</li>
+                    <li>Problem-Solving</li>
+                    <li>Team Management</li>
                 </ul>
             </div>
         </div>
@@ -359,7 +392,8 @@
         <div class="footer-actions" id="contact">
             <div class="contact-info">
                 <h4>Contact</h4>
-                <p>📍 Bulacan, Philippines</p>
+                <p>📍 Pulilan, Bulacan, Philippines</p>
+                <p>📞 09610105670</p>
             </div>
 
             <div class="hire-info">
