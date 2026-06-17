@@ -1,35 +1,32 @@
-# Divina Santos | Logistics VA Portfolio
+# 🗂️ Divina Santos | Logistics VA Portfolio
 
-**Online Seller • Customer Support • Operations Coordinator** Helping businesses streamline customer communication and delivery operations.
+Welcome to my portfolio repository! This project hosts my live portfolio web page built directly with semantic HTML and clean, modern CSS. 
 
----
-
-## 📋 About Me
-I am a detail-oriented professional with nearly 4 years of Software QA experience and practical logistics coordination experience from running an online business on Facebook Marketplace. 
-
-My QA background strengthened my documentation, process management, problem-solving, and communication skills. I am now focused on a Logistics VA path where I can help businesses manage customer support, order flow, shipping updates, and daily operations efficiently.
+* **🌐 Live Website Link:** [dis0599.github.io](https://dis0599.github.io/)
 
 ---
 
-## 🛠️ Services
-* **Customer Support:** Email and chat support, inquiries, order updates, and complaint resolution.
-* **Logistics Coordination:** Shipment tracking, delivery scheduling, rider communication, and ETA follow-ups.
-* **Operations Support:** Data entry, reporting, documentation, spreadsheets, and order management.
+## 🎯 About My Core Frameworks
+
+### 📋 1. Professional Focus
+* **Logistics Virtual Assistant:** Combining systemic analytical processes with practical, hands-on operational tracking.
+* **Background Integration:** Over 4 years of software quality assurance analysis paired with background processing for standard Facebook Marketplace consumer interaction.
+
+### 🛠️ 2. Core Service Operations
+* **Logistics & Transfer Handling:** Route execution tracking and internal updates.
+* **Customer Care Support:** Front-line ticket answering, client communications, and dispute resolution.
+* **Operational Workflows:** Order management and database updates.
+
+### ⚙️ 3. Targeted Technical Skillset
+* Version control and hosting via **GitHub**
+* Process mapping and system workflows
+* Structured data management and tracking systems
 
 ---
 
-## 📈 Experience & Professional Story
-* **2022–Present:** Software QA Engineer (Strong attention to detail, test execution, reporting)
-* **Online Business:** Online Seller & Logistics Coordinator (Managed FB Marketplace inquiries, scheduled deliveries, tracked shipments)
-* **2018–2022:** BS in Information Technology (Foundation in technical work and structured workflows)
+## 🚀 How to Edit This Portfolio Locally
 
----
-
-## 🚀 Workflow
-`Inquiry` ➔ `Order Confirmation` ➔ `Delivery Scheduling` ➔ `Rider Coordination` ➔ `Shipment Tracking` ➔ `Customer Update` ➔ `Successful Delivery`
-
----
-
-## 🤝 Contact
-* **Email:** divinainfantesantos24@gmail.com
-* **Location:** Bulacan, Philippines
+If you would like to run updates or test structural design edits on this site on your local computer:
+1. Clone this repository down to your local machine.
+2. Open the file named `index.html` inside any preferred modern web browser or text editor to view or adapt styling structures.
+3. Commit updates back to your `main` branch to let GitHub Actions instantly rebuild your hosted webpage.
